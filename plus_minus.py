@@ -1,7 +1,7 @@
 #Given an array of integers, this function calculates the ratios of its elements
 # that are positive, negative, and zero, and return an array with the ratios.
 
-def plusMinus(arr):
+def plus_minus(arr):
     ratios = [0 , 0, 0] # [positive, negative, zero]
           
     for num in arr:

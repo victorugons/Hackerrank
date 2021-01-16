@@ -1,5 +1,5 @@
 # Function that must compare the triplets a and b and return an array with the result of the comparison.
-def compareTriplets(a, b):
+def compare_triplets(a, b):
     result = [0, 0]
     for i in range(3):
         if a[i] > b[i]:

@@ -1,5 +1,5 @@
 # Function that must return the sum of the array elements as an integer.
-def simpleArraySum(ar):
+def simple_array_sum(ar):
     count = 0
     if len(ar) > 1000:
         return -1

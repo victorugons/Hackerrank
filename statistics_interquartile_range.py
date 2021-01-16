@@ -22,12 +22,12 @@ def quartiles (arr):
     
     return quartiles
 
-def constructDataSet (X, F):
+def construct_dataset (X, F):
     S = []
     for i in range(len(X)):
         for j in range(F[i]):
             S.append(X[i])
     return S.sort()
 
-quartiles = quartiles(constructDataSet(X, F))
+quartiles = quartiles(construct_dataset(X, F))
 interquartile_range = quartiles[2] - quartiles[0]

@@ -6,7 +6,7 @@ def mean (arr):
         total = total + i
     return total/len(arr)
 
-def stdDeviation (arr):
+def std_deviation (arr):
     meanArr = mean(arr)
     total = 0
     for num in arr:
