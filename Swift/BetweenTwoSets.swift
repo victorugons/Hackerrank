@@ -11,6 +11,8 @@
     There are two numbers between the arrays: 6 and 12.
     6%2 = 0, 6%6 = 0 , 24%6 = 0 and 26%6 = 0 for the first value.
     12%2 = 0, 12%6 = 0, 24%12 = 0  and 36%12 = 0 for the second value. Return 12.
+    
+    More at: https://www.hackerrank.com/challenges/between-two-sets/problem
 
     This one was really hard for me but then i realised I had to use least common multiple. I got the function that
     calculates it from the internet, lines 27 to 37, cause I was about to give up lol, I adaptated it from C to Swift
