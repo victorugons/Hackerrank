@@ -1,4 +1,8 @@
+// More at: https://www.hackerrank.com/interview/preparation-kits/one-week-preparation-kit/one-week-day-one/challenges
+
 /*
+    Plus Minus
+
     Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero.
     Print the decimal value of each fraction on a new line with 6 places after the decimal.
 */
@@ -26,6 +30,8 @@ func plusMinus(arr: [Int]) -> Void {
 }
 
 /*
+    Mini-Max Sum
+
     Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the
     five integers. Then print the respective minimum and maximum values as a single line of two space-separated long integers.
 */
@@ -38,6 +44,8 @@ func miniMaxSum(arr: [Int]) -> Void {
 }
 
 /*
+    Time Conversion
+
     Given a time in -hour AM/PM format, convert it to military (24-hour) time.
 */
 func timeConversion(s: String) -> String {
@@ -69,6 +77,7 @@ func timeConversion(s: String) -> String {
 
 /*
     Mock Test: Find the Median
+    
     The median of a list of numbers is essentially its middle element after sorting.
     Given a list of numbers with an odd number of elements, find the median.
 */
